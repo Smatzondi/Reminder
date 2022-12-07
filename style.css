@@ -1,0 +1,31 @@
+body{
+    background-image: url("view.jpg")
+}
+
+
+
+button {
+    position: absolute;
+    width: 200px;
+    border-radius: 10px;
+    color:aquamarine;
+    background-color: black;
+    margin: 250px;
+}
+
+button::before {
+      content:"5";
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: red;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+
+}
